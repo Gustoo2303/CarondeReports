@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarondeReports", "CarondeReports\CarondeReports.csproj", "{37828ACC-0892-44D4-880A-6D7FEF37BD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8B7DCDBF-D129-4361-8749-05B9C3B16BBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37828ACC-0892-44D4-880A-6D7FEF37BD4A} = {37828ACC-0892-44D4-880A-6D7FEF37BD4A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37828ACC-0892-44D4-880A-6D7FEF37BD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37828ACC-0892-44D4-880A-6D7FEF37BD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37828ACC-0892-44D4-880A-6D7FEF37BD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37828ACC-0892-44D4-880A-6D7FEF37BD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7DCDBF-D129-4361-8749-05B9C3B16BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7DCDBF-D129-4361-8749-05B9C3B16BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7DCDBF-D129-4361-8749-05B9C3B16BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7DCDBF-D129-4361-8749-05B9C3B16BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6F455B6-B16C-4DF5-89AB-98EBA88652B4}
+	EndGlobalSection
+EndGlobal
